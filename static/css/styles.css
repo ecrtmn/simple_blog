@@ -1,0 +1,10 @@
+.custom_registration_panel {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 500px;
+  transform: translate(-50%, -50%);
+  border: 1px solid #999;
+  border-radius: 2px;
+  padding: 10px;
+}

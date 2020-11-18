@@ -1,0 +1,17 @@
+{% extends 'blog/base_blog.html' %}
+
+{% block title %}
+  {{ post.title }} - {{ block.super }}
+{% endblock %}
+
+{% block content %}
+<div class="text-left mt-5">
+  <h1>
+    {{ post.title }}
+  </h1>
+  <p>
+    {{ post.body }}
+  </p>
+  <img src="http://placeimg.com/640/480/any" class="rounded" alt="">
+</div>
+{% endblock %}
